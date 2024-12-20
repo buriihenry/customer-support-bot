@@ -1,33 +1,32 @@
-# customer-support-bot
-A chatbot project using Natural Language Processing (NLP) for customer support automation.
+# Customer Support Chatbot with NLP
 
-## Features
-- Intent classification
-- Natural language understanding
-- Quick responses to common customer queries
-- Multi-language support
+> An intelligent chatbot system leveraging Natural Language Processing for automated customer service.
 
-## Setup
-1. Clone the repository
-2. Install dependencies:
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+## Overview
+This project implements a smart customer support system using advanced NLP techniques to understand and respond to customer queries automatically. It helps reduce response times and improve customer satisfaction.
+
+## Quick Start
 ```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
-```
 
-## Usage
-Run the chatbot:
-```bash
+# Run the application
 python app.py
 ```
 
-## Configuration
-Update `config.yml` to customize:
-- Language settings
-- Response templates
-- API endpoints
-
-## Requirements
-- Python 3.8+
-- NLTK
-- TensorFlow
-- PyTorch
+## Project Structure
+```
+.
+├── app.py
+├── config.yml
+├── models/
+├── data/
+└── utils/
+```
