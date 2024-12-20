@@ -1,142 +1,168 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
-        ],
-        "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
-        ]
-      },
-      
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
-        ]
-      },
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
-      },
-      {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
-        ],
-        "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
-        ]
-      },
-      
-      
-      {
-        "tag": "delivery",
-        "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
-        ],
-        "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
-        ]
-      },
-      {
-        "tag": "funny",
-        "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
-        ],
-        "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
-        ]
-      },
-    
-  {
-    "tag": "hours",
-    "patterns": [
-      "What are your hours?",
-      "When are you open?",
-      "What are your operating hours?",
-      "Business hours",
-      "What time do you close?",
-      "Are you open on weekends?",
-      "Holiday hours"
-    ],
-    "responses": [
-      "We are open 9am-5pm Monday through Friday",
-      "Our business hours are 9am-5pm on weekdays",
-      "We are closed on weekends and holidays"
-    ]
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Howdy",
+        "Greetings",
+        "What's up?",
+        "Yo"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
     },
     {
-    "tag": "location",
-    "patterns": [
-      "Where are you located?",
-      "What's your address?",
-      "How can I find you?",
-      "What's your location?",
-      "Directions to store",
-      "Where is your shop?",
-      "Nearest location",
-      "Parking available?"
-    ],
-    "responses": [
-      "We are located at 123 Coffee Street, Downtown",
-      "You can find us at 123 Coffee Street in the Downtown area",
-      "Free parking available behind the building"
-    ]
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Take care"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
     },
     {
-    "tag": "menu",
-    "patterns": [
-      "What's on your menu?",
-      "Special drinks?",
-      "Do you have food?",
-      "Breakfast options?",
-      "Any vegan options?"
-    ],
-    "responses": [
-      "Our menu includes various coffee drinks, teas, and pastries",
-      "We offer specialty drinks and vegan-friendly options",
-      "Check our daily specials board for new items"
-    ]
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Much obliged", "Cheers"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-    "tag": "prices",
-    "patterns": [
-      "How much is coffee?",
-      "Price list?",
-      "Cost of drinks",
-      "Tea prices",
-      "Most expensive item?"
-    ],
-    "responses": [
-      "Coffee starts at $2.50, specialty drinks range from $3.50-$5.00",
-      "Our full price list is available in store",
-      "We offer daily discounts on selected items"
-    ]
-    }
-    ,
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What products are available?",
+        "What can I buy?",
+        "What do you offer?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "Check out our menu for available items"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Delivery time?",
+        "How fast is shipping?",
+        "Expected delivery date?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "You can expect delivery within 2-4 business days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Got any jokes?",
+        "Entertain me"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't skeletons fight each other? They don't have the guts."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What are your operating hours?",
+        "Business hours",
+        "What time do you close?",
+        "Are you open on weekends?",
+        "Holiday hours",
+        "Opening times",
+        "What time do you open?",
+        "Weekend schedule?"
+      ],
+      "responses": [
+        "We are open 9am-5pm Monday through Friday",
+        "Our business hours are 9am-5pm on weekdays",
+        "We are closed on weekends and holidays"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "How can I find you?",
+        "What's your location?",
+        "Directions to store",
+        "Where is your shop?",
+        "Nearest location",
+        "Parking available?",
+        "Closest branch",
+        "Store location"
+      ],
+      "responses": [
+        "We are located at 123(Angela's) Coffee Street, Downtown",
+        "You can find us at 1(Angela's) Coffee Street in the Downtown area",
+        "Free parking available behind the building"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on your menu?",
+        "Special drinks?",
+        "Do you have food?",
+        "Breakfast options?",
+        "Any vegan options?",
+        "Menu items?",
+        "What's for lunch?",
+        "Food menu?",
+        "Drink options?",
+        "Daily specials?"
+      ],
+      "responses": [
+        "Our menu includes various coffee drinks, teas, and pastries",
+        "We offer specialty drinks and vegan-friendly options",
+        "Check our daily specials board for new items"
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "How much is coffee?",
+        "Price list?",
+        "Cost of drinks",
+        "Tea prices",
+        "Most expensive item?",
+        "What's the cheapest item?",
+        "Price range?",
+        "How much does it cost?",
+        "What are your rates?",
+        "Pricing details?"
+      ],
+      "responses": [
+        "Coffee starts at Ksh 100, specialty drinks range from Ksh 200-1000",
+        "Our full price list is available in store",
+        "We offer daily discounts on selected items"
+      ]
+    },
     {
       "tag": "wifi",
       "patterns": [
@@ -145,7 +171,11 @@
         "Wifi password?",
         "Internet connection?",
         "Can I work here?",
-        "Is your wifi fast?"
+        "Is your wifi fast?",
+        "Wi-Fi availability?",
+        "How to connect to Wi-Fi?",
+        "Free internet service?",
+        "Wi-Fi for customers?"
       ],
       "responses": [
         "Yes, we offer free wifi to customers",
@@ -161,7 +191,11 @@
         "Group booking",
         "Private event space",
         "Reserve a table",
-        "Party booking"
+        "Party booking",
+        "How to book a table?",
+        "Event reservation?",
+        "Booking details?",
+        "Reservation policy?"
       ],
       "responses": [
         "We accept reservations for groups of 6 or more",
@@ -177,7 +211,11 @@
         "Nut free items",
         "Dairy alternatives",
         "Allergen information",
-        "Lactose free"
+        "Lactose free",
+        "Peanut free?",
+        "Egg free?",
+        "Soy free?",
+        "Allergy-friendly items?"
       ],
       "responses": [
         "We offer various allergen-free options",
@@ -193,7 +231,11 @@
         "Member benefits",
         "Points system",
         "Frequent customer",
-        "Coffee club"
+        "Coffee club",
+        "How do I earn points?",
+        "Loyalty rewards?",
+        "Membership perks?",
+        "How does the loyalty program work?"
       ],
       "responses": [
         "Join our loyalty program to earn points on purchases",
@@ -209,15 +251,18 @@
         "Bulk orders",
         "Event catering",
         "Corporate orders",
-        "Large groups"
+        "Large groups",
+        "Catering menu?",
+        "How to place a bulk order?",
+        "Event coffee service?",
+        "Catering services available?"
       ],
       "responses": [
         "We offer catering services for events and meetings",
         "Contact us 48 hours in advance for large orders",
         "Special rates available for corporate accounts"
       ]
-    }
-    ,
+    },
     {
       "tag": "seasonal_drinks",
       "patterns": [
@@ -227,7 +272,10 @@
         "Christmas drinks",
         "Summer drinks",
         "Fall beverages",
-        "Seasonal menu"
+        "Seasonal menu",
+        "Spring drinks?",
+        "Special holiday menu?",
+        "Limited edition drinks?"
       ],
       "responses": [
         "Our seasonal menu changes quarterly",
@@ -243,7 +291,11 @@
         "French press coffee",
         "Do you have drip coffee?",
         "Espresso shots",
-        "Cold brew process"
+        "Cold brew process",
+        "Brewing options?",
+        "Specialty brewing methods?",
+        "How do you brew your coffee?",
+        "Different coffee preparations?"
       ],
       "responses": [
         "We offer various brewing methods including pour-over, French press, and espresso",
@@ -259,7 +311,11 @@
         "Bean varieties",
         "Whole bean coffee",
         "Coffee origins",
-        "Fresh roasted beans"
+        "Fresh roasted beans",
+        "Can I buy coffee beans?",
+        "Sourcing details?",
+        "What type of beans do you use?",
+        "Do you sell ground coffee?"
       ],
       "responses": [
         "We sell freshly roasted whole beans from various origins",
@@ -267,5 +323,5 @@
         "Ask about our current bean selections"
       ]
     }
-    ]
+  ]
 }
